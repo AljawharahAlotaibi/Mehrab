@@ -1,5 +1,5 @@
 <p align = "center">
-<img  width = "100" src="images/prayer_times_logo.svg" />
+<img  width = "100" src="Notiflication/logo.png" />
 <h1 align="center">Mehrab: Prayer Notifier App</h1>
    
 Mehrab is a prayer notifier app for Android developed in Android Studio. It offers accurate prayer timings, customizable actions, and a Qibla direction finder to enhance the prayer experience. Users can set reminders, adjust prayer times based on location, and personalize their prayer experience with custom actions. With Mehrab, staying connected with one's faith and maintaining a consistent prayer routine becomes more convenient and tailored to individual preferences.
@@ -43,12 +43,14 @@ Mehrab is a prayer notifier app for Android developed in Android Studio. It offe
 <p align="left">
    this file is in Mahrab\readme.file so how to access photos in Mahrab\Notiflication\images.jpg
   <img height="500" src="Notiflication/1.jpg" />
-  <img height="500" src="Mahrab/Notification/jpg" />
-  <img height="500" src="images\3.png" />
-  <img height="500" src="images\4.png" />
-  <img height="500" src="images\5.png" />
-  <img height="500" src="images\6.png" />
-  <img height="500" src="images\7.png" />
+  <img height="500" src="MNotiflication/2.jpg" />
+  <img height="500" src="Notiflication/3.jpg" />
+  <img height="500" src="Notiflication/4.jpg" />
+  <img height="500" src="Notiflication/5.jpg" />
+  <img height="500" src="Notiflication/6.jpg" />
+  <img height="500" src="Notiflication/7.jpg" />
+  <img height="500" src="Notiflication/8.jpg" />
+  <img height="500" src="Notiflication/9.jpg" />
  </p>
 
 </p>
