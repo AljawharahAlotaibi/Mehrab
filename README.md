@@ -59,15 +59,9 @@ Mehrab is a prayer notifier app for Android developed in Android Studio. It offe
 <br>
 ![#848BBA](https://via.placeholder.com/15/848BBA/000000?text=+) `#848BBA`
 <br>
-![#A691C8](https://via.placeholder.com/15/A691C8/000000?text=+) `#A691C8`
-<br>
-![#724FAB](https://via.placeholder.com/15/724FAB/000000?text=+) `#724FAB`
-<br>
 ![#354d78](https://via.placeholder.com/15/354d78/000000?text=+) `#354d78`
 <br>
 ![#95a8cc](https://via.placeholder.com/15/95a8cc/000000?text=+) `#95a8cc`
-<br>
-![#FDE992](https://via.placeholder.com/15/FDE992/000000?text=+) `#FDE992`
 <br>
 ![#24273E](https://via.placeholder.com/15/24273E/000000?text=+) `#24273E`
 
