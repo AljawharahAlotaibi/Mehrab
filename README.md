@@ -1,5 +1,5 @@
 <p align = "center">
-  <img src="images/prayer_times_logo.svg" alt="Mehrab Logo" width="100" style="border-radius: 50%;" />
+  <img src="Notiflication\logo.png" alt="Mehrab Logo" width="100" style="border-radius: 50%;" />
 <h1 align="center">Mehrab: Prayer Notifier App</h1>
    
 Mehrab is a prayer notifier app for Android developed in Android Studio. It offers accurate prayer timings, customizable actions, and a Qibla direction finder to enhance the prayer experience. Users can set reminders, adjust prayer times based on location, and personalize their prayer experience with custom actions. With Mehrab, staying connected with one's faith and maintaining a consistent prayer routine becomes more convenient and tailored to individual preferences.
