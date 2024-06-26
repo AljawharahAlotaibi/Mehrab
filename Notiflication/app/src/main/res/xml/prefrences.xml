@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Prayer Times Calculations">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/manual"
+            android:summary="@string/manual_summary"
+            android:title="@string/manual_title" />
+
+        <ListPreference
+            android:defaultValue="@string/juristic_default"
+            android:dependency="@string/manual"
+            android:entries="@array/juristic_entries"
+            android:entryValues="@array/juristic_values"
+            android:key="juristic"
+            android:title="@string/juristic_title" />
+
+        <ListPreference
+            android:defaultValue="@string/calculation_default"
+            android:dependency="@string/manual"
+            android:entries="@array/calculation_entries"
+            android:entryValues="@array/calculation_values"
+            android:key="@string/calculation"
+            android:title="@string/calculation_title" />
+
+        <ListPreference
+            android:defaultValue="@string/latitude_default"
+            android:dependency="@string/manual"
+            android:entries="@array/latitude_entries"
+            android:entryValues="@array/latitude_values"
+            android:key="@string/latitude"
+            android:title="@string/latitude_title" />
+
+        <ListPreference
+            android:defaultValue="@string/time_default"
+            android:dependency="@string/manual"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/time_values"
+            android:key="@string/time"
+            android:title="@string/time_title" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Silence Phone">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="mosqueSilence"
+            android:summary="Enable silent mode upon entering a mosque."
+            android:title="Mosque silent mode" />
+
+            <ListPreference
+                android:key="selected_prayer"
+                android:title="Silence Phone Based on Prayer Time"
+                android:summary="Choose the prayer to enable silent mode 5 minutes early"
+                android:entries="@array/prayer_entries"
+                android:entryValues="@array/prayer_values"
+                android:defaultValue="none" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Reset Location">
+        <Preference
+            android:key="reset_location_preference"
+            android:title="Reset Location"
+            android:summary="Reset your current location" />
+        <!-- android:icon="@drawable/ic_reset_location" -->
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <!-- Toolbar for back navigation -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:title="Qibla Direction"
+        android:backgroundTint="@color/bluelight"
+        app:navigationIcon="?attr/homeAsUpIndicator"/>
+
+    <!-- Container for ImageView components -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Your existing ImageView components -->
+        <ImageView
+            android:id="@+id/compassImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/compass" />
+
+        <ImageView
+            android:id="@+id/needleImageView"
+            android:layout_width="54dp"
+            android:layout_height="540dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/needle" />
+
+    </RelativeLayout>
+</LinearLayout>

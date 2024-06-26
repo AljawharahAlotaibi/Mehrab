@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#354d78</color>
+    <color name="colorPrimaryVariant">#A691C8</color>
+    <color name="colorSecondary">#724FAB</color>
+    <color name="colorSecondaryVariant">#848BBA</color>
+    <color name="colorSecondaryLow">#8F848BBA</color>
+    <color name="colorSecondaryLow2">#99848BBA</color>
+    <color name="colorSecondaryLow3">#D9848BBA</color>
+    <color name="darkerWhite">#DDDAED</color>
+    <color name="black">#24273E</color>
+    <color name="white">#FEFEFF</color>
+    <color name="bluelight">#95a8cc</color>
+    <color name="bluelightocapacity">#8095a8cc</color>
+    <color name="lightyellow">#FDE992</color>
+    <color name="bluedark">#354d78</color>
+
+</resources>

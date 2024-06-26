@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">PrayerTime</string>
+    <string name="prayer_times">PRAYER TIMES</string>
+    <string name="email">Enter your email</string>
+    <string name="pass">Enter password</string>
+    <string name="verPass">Verify password</string>
+    <string name="backdrop">backdrop</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+    <string name="summary">Report technical issues or suggest new features</string>
+    <string name="notificationTitle">Enable message notifications/</string>
+    <string name="feedbackTitle">Send feedback</string>
+    <string name="logo">Logo</string>
+    <string name="prayer">Prayer</string>
+    <string name="times">Times</string>
+    <string name="edit_user_account">edit user Account</string>
+
+
+    <!-- Prefrences -->
+    <string name="manual">manual</string>
+    <string name="manual_title">Manual Settings</string>
+    <string name="manual_summary">Calculates the prayer times based on preferred parameters</string>
+
+    <string name="juristic">juristic</string>
+    <string name="juristic_title">Juristic Method</string>
+    <string name="juristic_default">0</string>
+    <string-array name="juristic_entries">
+        <item> AlShafi\'i </item>
+        <item> Hanafi </item>
+    </string-array>
+    <string-array name="juristic_values">
+        <item> 0 </item>
+        <item> 1 </item>
+    </string-array>
+
+    <string name="calculation">calculation</string>
+    <string name="calculation_title">Calculation Conventions</string>
+    <string name="calculation_default">0</string>
+    <string-array name="calculation_entries">
+        <item> Jafari</item>
+        <item> University of Islamic Sciences, Karachi </item>
+        <item> Islamic Society of North America </item>
+        <item> Muslim World League </item>
+        <item> Umm al-Qura, Makkah </item>
+        <item> Egyptian General Authority of Survey </item>
+        <item> University of Tehran </item>
+    </string-array>
+    <string-array name="calculation_values">
+        <item>0</item>
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+    </string-array>
+    <string name="latitude">latitude</string>
+    <string name="latitude_title">Latitude Adjustments</string>
+    <string name="latitude_default">0</string>
+    <string-array name="latitude_entries">
+        <item>None</item>
+        <item>Middle of the Night</item>
+        <item>1/7 of the Night</item>
+        <item>Angle based Method</item>
+    </string-array>
+    <string-array name="latitude_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="time">time</string>
+    <string name="time_title">Time Format</string>
+    <string name="time_default">0</string>
+    <string-array name="time_entries">
+        <item>24 Hours</item>
+        <item>12 Hours</item>
+        <item>12-hour format with no suffix</item>
+        <item> floating point number </item>
+    </string-array>
+    <string-array name="time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="silent_mode_times">
+        <item>None</item>
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>8 hours</item>
+        <item>1 Day</item>
+        <item>7 Days</item>
+    </string-array>
+
+    <string-array name="silent_mode_times_values">
+        <item>0</item> <!-- None (0 milliseconds) -->
+        <item>300000</item> <!-- 5 minutes -->
+        <item>900000</item> <!-- 15 minutes -->
+        <item>1800000</item> <!-- 30 minutes -->
+        <item>3600000</item> <!-- 1 hour -->
+        <item>28800000</item> <!-- 8 hours -->
+        <item>86400000</item> <!-- 24 hours -->
+        <item>604800000</item> <!-- 7 days -->
+    </string-array>
+</resources>

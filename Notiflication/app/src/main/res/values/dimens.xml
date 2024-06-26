@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text Fields Dimensions-->
+    <dimen name="heading">34sp</dimen>
+    <dimen name="subHeading">28sp</dimen>
+    <dimen name="text">22sp</dimen>
+    <dimen name="title">50sp</dimen>
+    <!-- Buttons Dimensions-->
+    <dimen name="btnWidth">300dp</dimen>
+    <dimen name="btnHeight">45dp</dimen>
+    <dimen name="btnText">14sp</dimen>
+    <!-- Text Input Dimensions-->
+    <dimen name="textWidth">300dp</dimen>
+    <dimen name="textHeight">59dp</dimen>
+</resources>
