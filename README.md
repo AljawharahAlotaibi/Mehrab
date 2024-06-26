@@ -41,8 +41,9 @@ Mehrab is a prayer notifier app for Android developed in Android Studio. It offe
 
 ## Interface
 <p align="left">
-  <img height="500" src="Mahrab\Notiflication\1.png" />
-  <img height="500" src="Notiflication\2.png" />
+   this file is in Mahrab\readme.file so how to access photos in Mahrab\Notiflication\images.jpg
+  <img height="500" src="Mahrab/Notification/1.png" />
+  <img height="500" src="Mahrab/Notification/jpg" />
   <img height="500" src="images\3.png" />
   <img height="500" src="images\4.png" />
   <img height="500" src="images\5.png" />
